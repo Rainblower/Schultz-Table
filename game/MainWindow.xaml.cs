@@ -23,10 +23,10 @@ namespace game
     public partial class MainWindow : Window
     {
         int count = 1;
+        int sec = 0;
         const int finish = 26;
         Random rand = new Random();
         DispatcherTimer timer = null;
-        int sec = 0;
         public MainWindow()
         {
             InitializeComponent();
