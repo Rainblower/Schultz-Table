@@ -92,8 +92,10 @@ namespace game
                 Button button = new Button()
                 {
                     Content = masiv[i].ToString(),
-                    Width = 50,
-                    Height = 50,
+                    Width = 100,
+                    Height = 100,
+                    FontSize = 50,
+                    FontWeight = FontWeights.Bold,
                     Background = Brushes.White,
                     Margin = new Thickness(0.5),
                     HorizontalAlignment = HorizontalAlignment.Center,

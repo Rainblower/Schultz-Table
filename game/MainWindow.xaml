@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:game"
         mc:Ignorable="d"
-        Title="Schultz Table" Height="450" Width="400" MinWidth="380" MinHeight="450" WindowStartupLocation="CenterScreen">
+        Title="Schultz Table" Height="650" Width="600" MinWidth="600" MinHeight="650" WindowStartupLocation="CenterScreen">
     <Grid>
         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5" Name="txt" FontSize="24" FontWeight="Bold"/>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <WrapPanel Name="wrap" Width="255" Height="255"/>
+            <WrapPanel Name="wrap" Width="505" Height="505"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" >
             <TextBlock Name="txtTime" HorizontalAlignment="Center" Text="Sec: 0"/>
